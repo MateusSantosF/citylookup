@@ -1,6 +1,6 @@
 # IBGE Data Retrieval and SQL Script Generation
 
-This Node.js project retrieves data from an Excel table related to the Brazilian Territorial Division (DTB - Divisao Territorial Brasileira)[https://www.ibge.gov.br/geociencias/organizacao-do-territorio/estrutura-territorial/23701-divisao-territorial-brasileira.html]. For each row in the spreadsheet, it fetches the longitude and latitude of the city/municipality using OpenStreetMap's geocoding service. Finally, it generates an SQL script with the data insertion statements.
+This Node.js project retrieves data from an Excel table related to the Brazilian Territorial Division [(DTB - Divisao Territorial Brasileira)](https://www.ibge.gov.br/geociencias/organizacao-do-territorio/estrutura-territorial/23701-divisao-territorial-brasileira.html). For each row in the spreadsheet, it fetches the longitude and latitude of the city/municipality using OpenStreetMap's geocoding service. Finally, it generates an SQL script with the data insertion statements.
 
 ## Overview
 
